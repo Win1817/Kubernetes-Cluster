@@ -19,7 +19,7 @@ cd ..
 cd ..
 
 # Run the Docker command to start Rancher
-sudo docker run --privileged -d --name rancher -v /home/jmwong/rancher/volume:/var/lib/rancher --restart=unless-stopped -p 80:80 -p 443:443 rancher/rancher
+sudo docker run --privileged -d --name rancher -v /home/sdilag/rancher/volume:/var/lib/rancher --restart=unless-stopped -p 80:80 -p 443:443 rancher/rancher
 
 echo "Rancher setup complete."
 echo "sudo docker ps"

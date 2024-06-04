@@ -23,4 +23,4 @@ sudo docker run --privileged -d --name rancher -v /home/sdilag/rancher/volume:/v
 
 echo "Rancher setup complete."
 echo "sudo docker ps"
-echo "sudo docker logs CONTAINER-ID 2>&1 | grep "Bootstrap Password"
+echo "sudo docker logs CONTAINER-ID 2>&1 | grep "Bootstrap Password""
